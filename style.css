@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+* {
+	font-family: "League Spartan", sans-serif;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: #3a4663;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	margin: 4rem auto;
+}
+.main-div {
+	display: flex;
+	flex-direction: column;
+	max-width: 54rem;
+	width: 100%;
+}
+header {
+	display: flex;
+	align-items: end;
+	width: 100%;
+}
+.logo {
+	font-size: 3.2rem;
+	font-weight: 700;
+	line-height: 2.9rem;
+	letter-spacing: -0.5333333611488342px;
+}
+.theme {
+	font-size: 1.2rem;
+	font-weight: 700;
+	line-height: 11px;
+	letter-spacing: 1px;
+	margin: 0 2.6rem 0.7rem 34.2rem;
+}
+.switcher {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+ul {
+	display: flex;
+	justify-content: space-around;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 13px;
+	letter-spacing: 0px;
+}
+li {
+	cursor: pointer;
+}
+
+.range-line {
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: transparent;
+	width: 7rem;
+	border: solid 0.5rem transparent;
+	border-radius: 2rem;
+	cursor: pointer;
+	background-color: #242d44;
+}
+.range-line1 {
+	background-color: #242d44;
+}
+.range-line2 {
+	background-color: #d2cdcd;
+}
+.range-line3 {
+	background-color: #1e0936;
+}
+input[type="range"]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 1.6rem;
+	height: 1.6rem;
+	background-color: #d03f2f;
+	border-radius: 50%;
+}
+
+.screen {
+	font-size: 5.6rem;
+	font-weight: 700;
+	line-height: 4.8rem;
+	letter-spacing: -0.9333333373069763px;
+	text-align: right;
+	padding: 4rem 3.2rem;
+	margin: 3.2rem 0 2.4rem;
+	border-radius: 1rem;
+	height: 12.8rem;
+}
+.screencolor1 {
+	background-color: #181f33;
+}
+.screencolor2 {
+	background-color: #eeeeee;
+}
+.screencolor3 {
+	background-color: #1e0936;
+}
+.buttons {
+	border-radius: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2.4rem;
+	padding: 3.2rem;
+}
+.buttons1 {
+	background-color: #242d44;
+}
+.buttons2 {
+	background-color: #d2cdcd;
+}
+.buttons3 {
+	background-color: #1e0936;
+}
+
+.button {
+	font-size: 4rem;
+	font-weight: 700;
+	line-height: 37px;
+	letter-spacing: -0.6666666865348816px;
+	border-radius: 1rem;
+	padding: 1.4rem;
+	max-width: 10.1rem;
+	width: 100%;
+	cursor: pointer;
+	transition: background-color 0.5s ease;
+}
+.page1:active {
+	background-color: #fffffe;
+}
+.page2:active {
+	background-color: #fffffe;
+}
+.page3:active {
+	background-color: #6c34ac;
+}
+.page1 {
+	box-shadow: 0px 4px 0px 0px #b3a497;
+	color: #434a59;
+	background-color: #eae3dc;
+}
+.page2 {
+	box-shadow: 0px 4px 0px 0px #a79e91;
+	color: #36362c;
+	background-color: #e5e4e1;
+}
+.page3 {
+	box-shadow: 0px 4px 0px 0px #881c9e;
+	color: #ffe53d;
+	background-color: #331c4d;
+}
+
+.reset {
+	max-width: 22.6rem;
+	width: 100%;
+	box-shadow: 0px 4px 0px 0px #414e73;
+	color: white;
+}
+.reset1 {
+	background-color: #647198;
+	box-shadow: 0px 4px 0px 0px #414e73;
+}
+.reset2 {
+	background-color: #378187;
+	box-shadow: 0px 4px 0px 0px #1b6066;
+}
+.reset3 {
+	background-color: #56077c;
+	box-shadow: 0px 4px 0px 0px #be15f4;
+}
+.reset1:active {
+	background-color: #a2b2e1;
+}
+.reset2:active {
+	background-color: #62b5bc;
+}
+.reset3:active {
+	background-color: #8631af;
+}
+.equal {
+	max-width: 22.6rem;
+	width: 100%;
+	box-shadow: 0px 4px 0px 0px #93261a;
+}
+.equal2 {
+	background-color: #c85402;
+	color: white;
+
+	box-shadow: 0px 4px 0px 0px #873901;
+}
+.equal1 {
+	background-color: #d03f2f;
+	color: white;
+
+	box-shadow: 0px 4px 0px 0px #93261a;
+}
+.equal3 {
+	background-color: #00ded0;
+	color: black;
+	box-shadow: 0px 4px 0px 0px #6cf9f1;
+}
+.equal1:active {
+	background-color: #f96b5b;
+}
+.equal2:active {
+	background-color: #ff8a38;
+}
+.equal3:active {
+	background-color: #93fff8;
+}
+.del {
+	color: white;
+}
+.del1 {
+	background-color: #647198;
+	box-shadow: 0px 4px 0px 0px #414e73;
+}
+.del2 {
+	background-color: #378187;
+
+	box-shadow: 0px 4px 0px 0px #1b6066;
+}
+.del3 {
+	background-color: #56077c;
+
+	box-shadow: 0px 4px 0px 0px #be15f4;
+}
+.del1:active {
+	background-color: #a2b2e1;
+}
+.del2:active {
+	background-color: #62b5bc;
+}
+.del3:active {
+	background-color: #8631af;
+}
+@media (max-width: 540px) {
+	body {
+		margin: 3rem auto;
+	}
+	.main-div {
+		max-width: 32rem;
+	}
+	header {
+		display: flex;
+		align-items: end;
+		width: 100%;
+	}
+
+	.theme {
+		margin: 0 2.6rem 0.5rem 13rem;
+	}
+
+	.screen {
+		font-size: 4rem;
+		line-height: 3.6rem;
+		text-align: right;
+		padding: 2.4rem;
+		height: 8.8rem;
+	}
+	.buttons {
+		gap: 1.3rem;
+		padding: 2rem;
+	}
+	.button {
+		font-size: 3.2rem;
+		font-weight: 700;
+		line-height: 29px;
+		padding: 1rem;
+		max-width: 6rem;
+		width: 100%;
+		cursor: pointer;
+		transition: background-color 0.5s ease;
+	}
+	.del {
+		font-size: 20px;
+	}
+	.reset {
+		max-width: 13.3rem;
+		width: 100%;
+		box-shadow: 0px 4px 0px 0px #414e73;
+		color: white;
+	}
+	.equal {
+		max-width: 13.3rem;
+	}
+}
